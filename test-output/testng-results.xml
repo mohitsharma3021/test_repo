@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30" started-at="2016-09-25T17:01:33Z" finished-at="2016-09-25T17:01:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30" started-at="2016-09-25T17:01:33Z" finished-at="2016-09-25T17:01:33Z">
+      <class name="TestNGDemo.CrossBrowserTesting">
+        <test-method status="SKIP" signature="myCBT(java.lang.String)[pri:0, instance:TestNGDemo.CrossBrowserTesting@1fb3ab6]" name="myCBT" duration-ms="0" started-at="2016-09-25T22:31:33Z" finished-at="2016-09-25T22:31:33Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method myCBT but has not been marked @Optional or defined
+in D:\Workspace\JavaProgram\TestNG\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method myCBT but has not been marked @Optional or defined
+in D:\Workspace\JavaProgram\TestNG\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myCBT -->
+      </class> <!-- TestNGDemo.CrossBrowserTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
